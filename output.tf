@@ -1,4 +1,3 @@
-output "public_ip" {
-  # just a comment for testing a commit
+output "ip_address" {
   value = aws_instance.web.public_ip
 }
