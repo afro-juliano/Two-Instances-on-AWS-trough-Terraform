@@ -5,6 +5,7 @@ data "aws_ami" "ubuntu" {
     name = "name"
     values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
   }
+  owners = ["099720109477"]
 }
 
 resource "aws_instance" "web" {
@@ -13,5 +14,26 @@ resource "aws_instance" "web" {
 
   tags = {
     name = "afro-01"
+  }
+}
+
+data "aws_ami" "ubuntu_west" {
+  provider = aws.west
+  most_recent = true
+
+  filter {
+    name = "name"
+    values = ["ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-*"]
+  }
+  owners = ["099720109477"]
+}
+
+resource "aws_instance" "web_west" {
+  provider = aws.west
+  ami           = data.aws_ami.ubuntu_west.id
+  instance_type = "t2-micro"
+
+  tags = {
+    name = "afro-02"
   }
 }
