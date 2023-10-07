@@ -1,1 +1,2 @@
-# Two-Instances-on-AWS-trough-Terraform
+# Two EC2 Instances on AWS with Terraform
+
