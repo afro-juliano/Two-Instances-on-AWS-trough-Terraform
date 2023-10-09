@@ -9,7 +9,7 @@ on how to set my infrastructure on AWS with a HCL script. And if you are learnin
   * An AWS account with sufficient permissions.
 
 ## First you'll need to git clone this repo 
-  * git clone https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform.git
+  $ git clone https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform.git
 
   A folder on your home directory will be created in my case this is ~/afro/Two-Instances-on-AWS-trough-Terraform.
   After those steps being concluded you should cd into your new folder and run some commands. In order to don't need 
