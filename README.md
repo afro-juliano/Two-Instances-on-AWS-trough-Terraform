@@ -21,15 +21,12 @@ on how to set my infrastructure on AWS with a HCL script. And if you are learnin
   * export AWS_ACCESS_KEY_ID="Your Access key"
   * export AWS_SECRET_ACCESS_KEY="Your secret access key"
 
+    ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/6f1600d0-bb4d-4a76-a044-61777259932a)
 
   * terraform plan -out my_plan
 
-  ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/6f1600d0-bb4d-4a76-a044-61777259932a)
-
-
   * terraform apply "my_plan"
-
-
-
+    ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/09219e4b-6bab-4e67-8360-f6e1cf03ad27)
 
   * terraform destroy
+    ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/566c3789-d951-4495-8c4e-5452ad7f61c3)
