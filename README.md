@@ -30,7 +30,8 @@ on how to set my infrastructure on AWS with a HCL script. And if you are learnin
     
     ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/09219e4b-6bab-4e67-8360-f6e1cf03ad27)
 
-  
+  * If you are learning like me It's important to always remember to destroy your infra after you are done. Cause you don't want to have
+    any surprises on your AWS billing.
   * terraform destroy
     
     ![image](https://github.com/afro-juliano/Two-Instances-on-AWS-trough-Terraform/assets/82853604/566c3789-d951-4495-8c4e-5452ad7f61c3)
