@@ -1,3 +1,2 @@
 .terraform
-.terraform.lock
-test.txt
+.terraform.lock.hcl
